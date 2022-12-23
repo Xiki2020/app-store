@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DrumPad</title>
+    <link rel="stylesheet" id="fnd" href="css/fnd-flex-grid.css" type="text/css" media="all">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <style>
+      .swiper-container {
+        overflow: hidden;
+        padding: 0 20px;
+      }
+      .swiper {
+        width: 460px;
+      }
+      .card-img {
+        background-size: cover;
+        border-radius: 24px;
+        height: 500px;
+        width: 230px;
+      }
+      .card-one {
+        background-image: url(/img/inch_1.png);
+      }
+      .card-two {
+        background-image: url(/img/inch_2.png);
+      }
+      .card-three {
+        background-image: url(/img/inch_3.png);
+      }
+      .card-four {
+        background-image: url(/img/inch_4.png);
+      }
+      .card-five {
+        background-image: url(/img/inch_5.png);
+      }
+      .card-six {
+        background-image: url(/img/inch_6.png);
+      }
+      .card-end {
+        height: 500px;
+        width: 230px;
+      }
+    </style>
+  <!--	<link rel="stylesheet" id="fix" href="css/fix.css" type="text/css" media="all">-->
+  </head>
+
+  <body>
+    <div  class="text-center">
+      <a href="https://apps.apple.com/us/app/drum-pad-music-beat-maker/id1497670420"><img src="img/00.jpg"></a><br>
+      <img src="img/03.jpg"><br>
+      <div class="swiper-container">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card-img card-one"></div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-img card-two"></div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-img card-three"></div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-img card-four"></div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-img card-five"></div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-img card-six"></div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-end"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="img/05.jpg">
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+    !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '132391332004643');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=132391332004643&ev=PageView&noscript=1"/></noscript>
+  </body>
+</html>
